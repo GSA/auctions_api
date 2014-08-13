@@ -1,0 +1,57 @@
+---
+layout: default
+title: Code Reference
+nav: fields
+script: >
+  addCodeTable('../static/businessTypes.json', 'business-types',
+    [ { key: 'businessTypeCode', header: 'Code'},
+      { key: 'businessTypeName', header: 'Description' } ]);
+  addCodeTable('../static/purpose.json', 'purpose-types',
+    [ { key: 'purposeCode', header: 'Code'},
+      { key: 'purposeName', header: 'Description' } ]);
+---
+<body id="codes">
+
+<h3>Codes for SAM fields</h3>
+
+<a name="businessTypes"></a>
+
+<h5>Business Types</h5>
+<div class="mobile-warning">
+
+              <i class="icon-error-alt"></i> We recommend viewing this table in landscape mode on your mobile device.
+
+            </div>
+<table id="business-types" class="field-table">
+	<colgroup>
+		<col span="1" style="width: 15%;">
+		<col span="1" style="width: 85%;">
+		<!-- <col span="1" style="width: 15.75%;"> -->
+	</colgroup>
+<thead>
+</thead>
+<tbody>
+</tbody>
+</table>
+</body>
+<p>
+Download the JSON for this table <a href="../static/businessTypes.json">here</a>
+
+<a name="purposeTypes"></a>
+
+<h5>Purpose of Registration Types</h5>
+
+<table id="purpose-types" class="field-table">
+	<colgroup>
+		<col span="1" style="width: 15%;">
+		<col span="1" style="width: 85%;">
+		<!-- <col span="1" style="width: 15.75%;"> -->
+	</colgroup>
+<thead>
+</thead>
+<tbody>
+</tbody>
+</table>
+</body>
+<p>
+Download the JSON for this table <a href="../static/purpose.json">here</a>
