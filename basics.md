@@ -6,7 +6,7 @@ nav: basics
 
 ### API basics
 
-The SAM API is a GET API which has one operation. The operation will retrieve an entity's public information. Its endpoint is ```https://api.data.gov/sam/v1/registrations/```. 
+The Auctions API is a GET API which has one operation. The operation will retrieve an entity's public information. Its endpoint is ```https://api.data.gov/sam/v1/registrations/```. 
 
 A couple basic notes: the rate limits for the API are currently 5,000 calls/day and 5 calls per 5 seconds. As we go forward and understand the impact of usage of the API on SAM, we will adjust the limits accordingly as well as allow for individual users with specific needs to have customized rate limits appropriate to their use.
 
