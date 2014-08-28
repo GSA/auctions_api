@@ -4,6 +4,21 @@ title: API Basics
 nav: basics
 ---
 
+
+### API Design
+
+* https://api.data.gov/gsa/auctions/lookup?format=xml
+* https://api.data.gov/gsa/auctions/lookup?format=json
+* https://api.data.gov/gsa/auctions/lookup?format=json&LocationST=MD&AucStartDt=20140813&
+* ...
+
+
+
+
+-----------------------
+
+
+
 ### API basics
 
 The Auctions API is a GET API which has one operation. The operation will retrieve an entity's public information. Its endpoint is ```https://api.data.gov/sam/v1/registrations/```. 
