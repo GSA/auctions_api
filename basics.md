@@ -6,7 +6,7 @@ nav: basics
 
 ### API basics
 
-The Auctions API is a GET API which has currently one operation. The operation will retrieve GSA Auctions, aucitons data.  
+The Auctions API is a GET API which has currently one operation. The operation will retrieve GSA Auctions, auctions data.  
 
 A couple basic notes: the rate limits for the API are currently 5,000 calls/day and 5 calls per 5 seconds. As we go forward and understand the impact of usage of the API, we will adjust the limits accordingly as well as allow for individual users with specific needs to have customized rate limits appropriate to their use.
 
@@ -14,7 +14,7 @@ A couple basic notes: the rate limits for the API are currently 5,000 calls/day 
 
 Currently, the below URL won't work without you adding in an API key from api.data.gov. Replace ```<YOUR_API_KEY>``` with your api.data.gov provided API key in the below URL to successfully execute the call.
 
- https://api.data.gov/test/gsa/auctions?api_key=yourKey&format=JSON
+ https://api.data.gov/test/gsa/auctions?api_key=<YOUR_API_KEY>&format=JSON
 
 ##### Output
 
