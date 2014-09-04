@@ -14,7 +14,7 @@ A couple basic notes: the rate limits for the API are currently 5,000 calls/day 
 
 Currently, the below URL won't work without you adding in an API key from api.data.gov. Replace ```<YOUR_API_KEY>``` with your api.data.gov provided API key in the below URL to successfully execute the call.
 
- https://api.data.gov/test/gsa/auctions?api_key=<YOUR_API_KEY>&format=JSON
+ https://api.data.gov/test/gsa/auctions?api_key=YOUR_API_KEY&format=JSON
 
 ##### Output
 
