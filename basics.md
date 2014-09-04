@@ -24,7 +24,7 @@ The data in the API is live data.
 
 ##### Coming soon! 
 
-This is the GSA Aucitons first API. More APIs may come in near future.
+This is the GSA Auctions first API. More APIs may come in near future.
 
 <body id="basics"></body>
 
