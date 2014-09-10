@@ -280,45 +280,9 @@ nav: fields
 <h4>Common RESTful API Objects</h4>
 
 <a name="addressObject"></a>
-<h5>Address Object</h5>
+<h5>Date Object</h5>
 
-An address is represented by a JSON object with a structure as follows:
+The date format is in ISO 8601, in UTC.
 
-<pre>
-{
-  "line1": "1800 F St NW",
-  "line2": "IAE Offices",
-  "city": "Washington",
-  "stateOrProvince": "DC",
-  "zip": "20504",
-  "zip4": "0000",
-  "countryCode": "US"
-}
-</pre>
+Example: 2013-02-27
 
-Note that <code>city</code> and <code>zip4</code> are optional. The <code>countryCode</code> is a 2-digit ISO-3166-1 alpha-2 code.
-
-<a name="pocObject"></a>
-<h5>Point of Contact Object</h5>
-
-A point of contact object references an individual that is tied to a SAM registration for a particular purpose (e.g., a government point of contact, a point of contact dedicated to past performance reporting, etc.).
-
-A point of contact is represented by an object wth a structure as follows:
-
-<pre>
-{
-  "firstName": "John",
-  "middleInitial": "Z",
-  "lastName": "Smith",
-  "address": { -- address object -- }
-  "usPhone": "555-555-5555",
-  "usPhoneExt": "000",
-  "nonUsPhone": "105055555555",
-  "nonUsPhoneExt": "000",
-  "email": "example@example.com"
-}
-</pre>
-
-Note that only <code>firstName</code>, <code>lastName</code>, <code>email</code> and one phone number is required.
-
-<body id="fields"></body>
