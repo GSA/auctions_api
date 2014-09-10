@@ -4,39 +4,44 @@ title: Field Reference
 nav: fields
 ---
 
-<h3>Field reference for GSA Auctions API data</h3>
-
-<p>The fields listed here match up to the GSA Auctions API json/xml output.</p>
-
 <h5>GSA Auctions API Data Fields</h5>
-<div class="mobile-warning">
-
-              <i class="icon-error-alt"></i> We recommend viewing this table in landscape mode on your mobile device.
-
-            </div>
-<table id="hmda-lar-fields" class="field-table">
-	<colgroup>
-		<col span="1" style="width: 36%;">
-		<col span="1" style="width: 46.6%;">
-		<col span="1" style="width: 16.65%;">
-		<!-- <col span="1" style="width: 15.75%;"> -->
-	</colgroup>
-<thead>
-<tr>
-<th>Field name</th>
-<th>Description</th>
-<th>Data type</th>
-</tr>
-<pre>
-Field name
-Description
-Data type
-<!-- <th>Could Be</th> -->
-</pre>
-</thead>
+<h5 id="functional-search-fields">Functional search fields</h5>
+<table border="1" cellspacing="0" cellpadding="0"> 
 <tbody>
+<tr>
+<td valign="top"><p><b>Functional Field</b></p></td>
+<td valign="top"><p><b>Definition</b></p></td>
+<td valign="top"><p><b>URL Search Field</b></p></td>
+<td valign="top"><p><b>Possible Search Terms</b></p></td>
+</tr>
+
+<tr>
+<td><p>Legal Business Name</p></td>
+<td valign="top"><p>The name that has been registered for the organization at Dun and Bradstreet (D&amp;B).</p></td>
+<td><p>legalBusinessName</p>
+
+<p>NOTE: This field also searches ‘Doing Business As Name’</p></td>
+<td valign="top"> </td>
+</tr>
+
+<tr>
+<td><p>Doing Business As Name</p></td>
+<td valign="top"><p>Doing Business As (DBA) is the commonly used other name, such as a franchise, licensee name, or an acronym for the entity. The DBA is also part of the registered name at D&amp;B.</p></td>
+<td><p>doingBusinessAs</p>
+
+<p>NOTE: This field also searches ‘Legal Business Name’</p></td>
+<td valign="top"> </td>
+</tr>
+
+<tr>
+<td><p>CAGE/NCAGE code</p></td>
+<td valign="top"><p>The Contractor and Government Entity (CAGE) Code or NATO Commercial and Government Entity (NCAGE) Code. This number is assigned to the registration if one does not already exist.</p></td>
+<td><p>cage</p></td>
+<td valign="top"> </td>
+</tr>
 </tbody>
 </table>
+
 
 <h4>Common RESTful API Objects</h4>
 
