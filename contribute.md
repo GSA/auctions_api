@@ -18,7 +18,7 @@ The project is in the public domain, and we encourage you to [contribute to it o
   <li>
     <a href="https://github.com/GSA/sam_api">
       <h4>Auctions API</h4>
-      <p>The open source software that runs the platform</p>
+      <p></p>
     </a>
   </li>
 </ul>
