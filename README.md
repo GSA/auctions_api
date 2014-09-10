@@ -1,7 +1,7 @@
-SAM API Documentation
-====================
+Auctions API Documentation
+=========================
 
-This is the documentation repository for the GSA SAM API. 
+This is the documentation repository for the GSA Auctions API. 
 
 Thanks to CFPB team for creating this model and for furthering open source in government.  
 
