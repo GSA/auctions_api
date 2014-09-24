@@ -21,7 +21,7 @@ The below URLs are for intiial browsing of API data. This DEMO_KEY will not work
 
 The output data will be in XML and JSON format. These files are downloadable files.
 
-The data in the API is live data.  
+The data in the API output file is live data.  
 
 ##### Coming soon! 
 
