@@ -8,7 +8,7 @@ nav: basics
 
 The Auctions API is a GET API which has currently one operation. The operation will retrieve GSA Auctions, auctions data.  
 
-A couple basic notes: the rate limits for the API are currently 5,000 calls/day and 5 calls per 5 seconds. As we go forward and understand the impact of usage of the API, we will adjust the limits accordingly as well as allow for individual users with specific needs to have customized rate limits appropriate to their use.
+A couple basic notes: The rate limits for the API are currently 5,000 calls/day and 5 calls per 5 seconds. As we go forward and understand the impact of usage of the API, we will adjust the limits accordingly as well as allow for individual users with specific needs to have customized rate limits appropriate to their use.
 
 ##### Example URL
 
