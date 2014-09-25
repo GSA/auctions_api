@@ -14,8 +14,8 @@ A couple basic notes: The rate limits for the API are currently 5,000 calls/day 
 
 The below URLs are for intiial browsing of API data. This DEMO_KEY will not work after certain number of attempts. User can  request a personal key from api.data.gov. The personal key will have more data access capabilities.    
 
- https://api.data.gov/test/gsa/auctions?api_key=DEMO_KEY&format=json
- https://api.data.gov/test/gsa/auctions?api_key=DEMO_KEY&format=xml
+ https://api.data.gov/gsa/auctions?api_key=DEMO_KEY&format=JSON
+ https://api.data.gov/gsa/auctions?api_key=DEMO_KEY&format=XML
 
 ##### Output
 
