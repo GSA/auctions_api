@@ -25,9 +25,9 @@ The data in the API output file is live data.
 
 ##### Software Development Kits (SDKs)
 
-For Ruby: 
-* [GitHub](https://github.com/18F/gsa_auctions_gem)
-* [RubyGems](https://rubygems.org/gems/gsa_auctions)
+For Ruby:  
+* [GitHub](https://github.com/18F/gsa_auctions_gem)  
+* [RubyGems](https://rubygems.org/gems/gsa_auctions)  
 
 ##### Coming soon! 
 
