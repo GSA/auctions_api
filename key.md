@@ -8,7 +8,7 @@ nav: basics
 <script type="text/javascript">
   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
   var apiUmbrellaSignupOptions = {
-    registrationSource: 'web',
+    registrationSource: 'gsa-auctions',
     apiKey: '0aYAx2eY37dkfjqsrrZ53SSCkY1yY2kRYGvY27rv'
   };
 
