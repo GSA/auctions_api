@@ -4,6 +4,7 @@ title: Request an API Key
 nav: basics
 ---
 
+{% raw %}
 <div id="apidatagov_signup">Loading signup form...</div>
 <script type="text/javascript">
   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -21,3 +22,4 @@ nav: basics
   })();
 </script>
 <noscript>Please enable JavaScript to signup for an <a href="http://api.data.gov/">api.data.gov</a> API key.</noscript>
+{% endraw %}
