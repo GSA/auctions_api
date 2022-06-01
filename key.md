@@ -11,7 +11,7 @@ nav: basics
   var apiUmbrellaSignupOptions = {
     registrationSource: 'gsa-auctions',
     apiKey: '0aYAx2eY37dkfjqsrrZ53SSCkY1yY2kRYGvY27rv',
-    contactURL: 'mailto:sasyauctionsops@gsa.gov'
+    contactURL: 'mailto:sasyauctionsops@gsa.gov',
     exampleApiUrl: 'https://api.data.gov/gsa/auctions?api_key={{api_key}}&format=JSON'
   };
 
